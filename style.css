@@ -1,0 +1,69 @@
+/* Importar dependencias */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&family=Rubik:wght@300&display=swap");
+
+/* Estilizando el body */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: rgb(5, 254, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(5, 254, 247, 1) 0%,
+    rgba(248, 0, 255, 1) 100%
+  );
+}
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 1,2em;
+  padding: 0,5vh;
+}
+
+button {
+  font-family: "Nunito", sans-serif;
+}
+
+.big-conteiner {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.conteiner {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: 75vh;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.conteiner > .challenge{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.tittle{
+    padding: 2vh 0 1vh;
+}
+
+.challenge{
+  padding: 1vh;
+  flex-wrap: wrap;
+}
